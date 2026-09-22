@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="Particles/background.css">
+   <title>Acessar Conta</title>
+   
+</head>
+
+<body>
+      <canvas id="canvas" aria-hidden="true"></canvas>
+      <main>
+         <form class="formulario">
+            <div class="logo"> 
+               <p>Vendify</p>
+               <h1>Acessar conta</h1>
+            </div>
+            <div class="campo-formulario">
+               <label for="email">E-mail</label>
+               <input id="email" name="email" type="email" placeholder="Digite seu e-mail" autocomplete="email" required>
+               <label for="password">Senha</label>
+               <input id="password" name="password" type="password" placeholder="Digite sua senha" autocomplete="current-password" required>               
+            </div>
+            
+            <p class="paragrafo-01"><a href="#">Esqueci a senha</a></p>
+            <div class="login-actions">
+               <button type="button" class="button-google">
+                  <span>Continuar com o Google</span>
+                  <img src="./img/google.png" alt="">
+               </button>
+               <button type="button" class="button-outlook">
+                  <span>Continuar com o Outlook</span>
+                  <img src="./img/microsoft-outlook.png" alt="">
+               </button>
+               <button type="submit" class="submit">
+                  <span>Entrar</span></button>
+            </div>
+            <div class="link-actions">
+               <a href="#" class="create-account">
+               <p class="paragrafo-02">Criar uma conta</p>
+               <img src="./img/inner.png" class="icone" alt="">    
+               </a>
+            </div>  
+         </form>
+      </main>
+   <script src="./Particles/background.js"></script>
+   <script src=""></script>
+</body>
+
+
+</html>
